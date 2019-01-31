@@ -38,8 +38,8 @@
     PrivateData = @{
         PSData = @{
             Tags = @("AzureDatabricks","Databricks")
-            # LicenseUri = ''
-            # ProjectUri = ''
+            LicenseUri = 'https://github.com/igs-opensource/PSAzureDatabricks/blob/master/LICENSE'
+            ProjectUri = 'https://github.com/igs-opensource/PSAzureDatabricks'
             # IconUri = ''
             # ReleaseNotes = ''
 
