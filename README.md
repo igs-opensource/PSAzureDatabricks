@@ -8,7 +8,14 @@ PSAzureDatabricks is an open source PowerShell module designed to make automatin
 
 ## Getting Started
 
-To use this module, you'll need to first install it. We're working on getting this uploaded to the PowerShell Gallery, but for now you can clone this repository locally and then copy the contents to your modules direcetory (see here for details: [https://docs.microsoft.com/en-us/powershell/developer/module/installing-a-powershell-module])
+There's two ways to get and use this module. The first is to pull down the current pubished version on the PowerShell Gallery, which you can find here: https://www.powershellgallery.com/packages/PSAzureDatabricks
+
+And to install it, just use:
+```powershell
+Install-Module -Name PSAzureDatabricks
+```
+
+Or if you want to download the source, just clone the repo and install it manually (see here for details: https://docs.microsoft.com/en-us/powershell/developer/module/installing-a-powershell-module
 
 #### Setting up a connection to Databricks
 
