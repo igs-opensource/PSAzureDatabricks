@@ -1,6 +1,6 @@
 @{
     RootModule = 'PSAzureDatabricks.psm1'
-    ModuleVersion = '0.1.0'
+    ModuleVersion = '0.2.0'
     GUID = '4c738f34-b3c9-45d5-9e2a-99cab643be17'
     Author = 'dfurgiuele'
     CompanyName = 'IGS'
