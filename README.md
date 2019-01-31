@@ -34,7 +34,8 @@ Install a new library on an existing cluster:
 $hashtable = @{
     'pypi' = 'simplejson=3.8.0'    
 }
-Install-AzureDatabricksClusterLibrary -Connection $Connection -ClusterName "Drews Cluster" -Libraries $hashtable
+Install-AzureDatabricksClusterLibrary -Connection $Connection -ClusterName "Drews Cluster"
+-Libraries $hashtable
 ```
 
 ### Deploying (and backing up) Notebook Code
@@ -46,7 +47,9 @@ Note: the output of this function is a compressed .zip archive that represents t
 
 Deploy an archive to a target directory on a Databricks workspace (and backup any existing content to an archive location):
 ```powershell
-Deploy-AzureDatabricksNotebooks -SourceConnection $AzureDatabricksConnection -SourcePath "/SomeDirectory" -DestinationConnection $AzureDatabricksConnection -DestinationPath "/NewDirectory" -ArchiveConnection $ArchiveConnection -ArchivePath "/SomeArchive"
+Deploy-AzureDatabricksNotebooks -SourceConnection $AzureDatabricksConnection -SourcePath "/SomeDirectory" 
+-DestinationConnection $AzureDatabricksConnection -DestinationPath "/NewDirectory" 
+-ArchiveConnection $ArchiveConnection -ArchivePath "/SomeArchive"
 ```
 ### Starting, stopping, and monitoring Databricks Jobs
 Get all databricks job definitions:
