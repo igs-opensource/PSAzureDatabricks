@@ -1,6 +1,6 @@
 ## Welcome to the PSAzure-Databricks project!
 
-PSAzureDatabricks is an open source PowerShell module designed to make automating and scripting certain tasks within Azure Databricks easier. There are commansd to support your configuration of Databricks clusters, code and content, and even Databricks jobs.
+PSAzureDatabricks is an open source PowerShell module designed to make automating and scripting certain tasks within Azure Databricks easier. There are commands to support your configuration of Databricks clusters, code and content, and even Databricks jobs.
 
 ## Requirements
 * PowerShell v5 and above, including PSCore 6!
